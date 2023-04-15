@@ -36,3 +36,17 @@ span{
     top: 295px;
     right: 270px;
 }
+.container-2{
+    position: absolute;
+    top: 600px;
+    right: 150px;
+    background: transparent;
+}
+
+.container-2 p{
+    background: transparent;
+    font-weight: 400;
+    font-size: large;
+    width: 600px;
+    text-align: center;
+}
