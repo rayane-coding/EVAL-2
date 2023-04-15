@@ -13,3 +13,26 @@
     background:transparent;
     height: 700px;
 }
+.container{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    background: transparent;
+    
+}
+.container p{
+    background: transparent;
+    font-weight: 400;
+    font-size: xx-large;
+}
+span{
+    background: transparent;
+    font-weight: bolder;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.QR-code{
+    position: absolute;
+    top: 295px;
+    right: 270px;
+}
