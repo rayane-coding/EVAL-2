@@ -23,5 +23,9 @@
     <div class="QR-code">
         <img src="Qrcode_wikipedia_fr_v2clean.png" width="300px" height="300px">
     </div>
+    <div class="container-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Maecenas finibus nisi nec nulla elementum faucibus.</p>
+    </div>
 </body>
 </html>
