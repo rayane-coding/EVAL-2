@@ -14,18 +14,31 @@
     <header>
         <img src="bg-header-desktop.png">
     </header>
-    <section class="tph">
-        <img src="vecteezy_smartphone-and-mobile-phone_11047526_812.png">
-    </section>
-    <div class="container">
-        <p>Get the App<span> Clipboard</span> on any device !</p>
-    </div>
-    <div class="QR-code">
-        <img src="Qrcode_wikipedia_fr_v2clean.png" width="300px" height="300px">
-    </div>
-    <div class="container-2">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Maecenas finibus nisi nec nulla elementum faucibus.</p>
-    </div>
+    <main>
+        <section class="tph">
+            <img id="tph-png" src="vecteezy_smartphone-and-mobile-phone_11047526_812.png">
+                <h1>Clipboard</h1>
+                <img id="logo" src="images/logo.svg" width="200" height="200">
+                <img id="fb" src="images/icon-facebook.svg" width="50px" height="50px">
+                <img id="insta" src="images/icon-instagram.svg" width="50px" height="50px">
+                <img id="twitter" src="images/icon-twitter.svg" width="50px" height="50px">
+        </section>
+        <div class="container">
+            <p>Get the App<span> Clipboard</span> on any device !</p>
+        </div>
+        <div class="QR-code">
+            <img src="Qrcode_wikipedia_fr_v2clean.png" width="300px" height="300px">
+        </div>
+        <div class="container-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Maecenas finibus nisi nec nulla elementum faucibus.</p>
+        </div>
+        <section class="links">
+                <ul>
+                    <li><a href="#"><img src="images/cloud-download.svg">App store </a></li>
+                    <li><a href="#"><img src="images/download.svg">Play store </a></li>
+                </ul>
+        </section>
+     </main>       
 </body>
 </html>
