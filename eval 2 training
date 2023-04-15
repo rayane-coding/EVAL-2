@@ -17,5 +17,11 @@
     <section class="tph">
         <img src="vecteezy_smartphone-and-mobile-phone_11047526_812.png">
     </section>
+    <div class="container">
+        <p>Get the App<span> Clipboard</span> on any device !</p>
+    </div>
+    <div class="QR-code">
+        <img src="Qrcode_wikipedia_fr_v2clean.png" width="300px" height="300px">
+    </div>
 </body>
 </html>
