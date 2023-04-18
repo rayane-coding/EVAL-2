@@ -8,37 +8,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Clipboard</title>
 </head>
 <body>
     <header>
-        <img src="bg-header-desktop.png">
+        <img src="bg-header-desktop.png" width="2000rem">
     </header>
     <main>
-        <section class="tph">
+        <section class="tph">    <!-- pas visible sur écran 375-->
             <img id="tph-png" src="vecteezy_smartphone-and-mobile-phone_11047526_812.png">
-                <h1>Clipboard</h1>
-                <img id="logo" src="images/logo.svg" width="200" height="200">
-                <img id="fb" src="images/icon-facebook.svg" width="50px" height="50px">
-                <img id="insta" src="images/icon-instagram.svg" width="50px" height="50px">
-                <img id="twitter" src="images/icon-twitter.svg" width="50px" height="50px">
+            <h1>Clipboard</h1>
+            <img id="logo" src="images/logo.svg" width="200" height="200">
+            <img id="fb" src="images/icon-facebook.svg" width="50px" height="50px">
+            <img id="insta" src="images/icon-instagram.svg" width="50px" height="50px">
+            <img id="twitter" src="images/icon-twitter.svg" width="50px" height="50px">
         </section>
-        <div class="container">
-            <p>Get the App<span> Clipboard</span> on any device !</p>
+
+        <div class="container-1">
+            <p>Get the App <strong> Clipboard</strong> on any device !</p>
         </div>
-        <div class="QR-code">
+
+
+        <div class="QR-code"> <!-- pas visible sur écran 375 -->
             <img src="Qrcode_wikipedia_fr_v2clean.png" width="300px" height="300px">
         </div>
-        <div class="container-2">
+        <div class="container-2"> <!-- pas visible sur écran 375-->
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                 Maecenas finibus nisi nec nulla elementum faucibus.</p>
+                Maecenas finibus nisi nec nulla elementum faucibus.</p>
         </div>
-        <section class="links">
-                <ul>
-                    <li><a href="#"><img src="images/cloud-download.svg">App store </a></li>
-                    <li><a href="#"><img src="images/download.svg">Play store </a></li>
-                </ul>
+        <section class="links">  <!-- pas visible sur écran 375-->
+            <ul> <!-- pas visible sur écran 375-->
+                <li><a href="#"><img src="images/cloud-download.svg" width="100px" height="100px"><span>App store</span></a></li>
+                <li><a href="#"><img src="images/download.svg" width="100px" height="100px"><span>Play store</span></a></li>
+            </ul>    
         </section>
-     </main>       
+        <p id="free">FREE</P>
+
+        <p id="download">download here !</p>
+    
+        <img id="arrow" src="1904659_arrow_backup_down_download_save_icon.svg" height="100rem">
+    </main>
 </body>
 </html>
