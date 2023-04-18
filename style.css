@@ -12,7 +12,7 @@ header{
 .tph{
     display: inline-block;
     position: relative;
-    top: 100px;
+    top: 1rem;
     left: 0px;
     background:transparent;
 }
@@ -61,8 +61,8 @@ h1{
 .container-1{
     display: flex;
     position:relative;
-    bottom: 32rem;
-    left: 40rem;
+    bottom: 35rem;
+    left: 50rem;
     background: transparent;
 }
 
@@ -85,14 +85,14 @@ strong{
     background: transparent;
     display: flex;
     position: relative;
-    bottom: 31rem;
-    left: 47rem;
+    bottom: 35rem;
+    left: 57rem;
 }
 
 .container-2{
     position: relative;
-    bottom: 30rem;
-    left: 38rem;
+    bottom: 35rem;
+    left: 49rem;
     background: transparent;
 }
 
@@ -107,12 +107,11 @@ strong{
 .links {
     display:inline-flex;
     align-items: center;
-    background-color: rgb(255, 0, 0);
     position: relative;
-    left: 39rem;
-    bottom: 30rem; 
+    left: 49rem;
+    bottom: 35rem; 
     background: transparent;
-  }
+}
 
 ul{
     display: flex;
@@ -138,4 +137,87 @@ span{
     left: 0.5rem;
 }
 
-  
+#free{
+    text-align: center;
+    display: none;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: underline;
+    background: transparent;
+    position: absolute;
+    bottom: 15rem;
+    left: 45%;
+}
+
+#arrow{
+    visibility: hidden;
+    display: inline-block;
+    position: absolute;
+    bottom: 8rem;
+    background: transparent;
+}
+
+#download{
+    text-align: center;
+    visibility: hidden;
+    display: inline-block;
+    position: absolute;
+    bottom: 4rem;
+    text-decoration: overline;
+    font-weight: bolder;
+}
+@media screen and (max-width:376px) {
+    *{
+        width: 100%;
+    }
+
+    .tph{
+        visibility: hidden;
+    }
+
+    .container-1{
+        text-align: center;
+        display: flex;
+        position: relative;
+        bottom: 35rem;
+        left: 0;
+    }
+
+    .container-1 p{
+        display: inline-block;
+        width: fit-content;
+    }
+
+    .QR-code{
+        visibility: none;
+        display: none;
+    }
+
+    .container-2{
+        visibility: none;
+        position: relative;
+        display: none;
+        bottom: 30rem;
+        left: 38rem;
+    }
+
+    .links {
+        visibility: none;
+        display:none;
+    }
+
+    #free{
+        display: flex;
+        visibility: visible;
+    }
+
+    #arrow{
+        visibility: visible;
+    }
+
+    #download{
+        visibility: visible;
+    }
+
+}
